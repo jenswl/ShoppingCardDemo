@@ -70,17 +70,6 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<repositories>
-		<repository>
-			<id>zooplus-virtual-all</id>
-			<name>zooplus-virtual-all</name>
-			<url>http://repo.zooplus.de/artifactory/remote-repos</url>
-		</repository>
-		<repository>
-			<id>zooplus-oo-local</id>
-			<name>zooplus-oo-local</name>
-			<url>http://repo.zooplus.de/artifactory/oo-local</url>
-		</repository>
-	</repositories>
+
 
 </project>
