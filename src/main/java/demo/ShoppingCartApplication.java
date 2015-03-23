@@ -16,13 +16,13 @@ import java.io.IOException;
 
 @SpringBootApplication
 @EnableSwagger
-public class ShoppingCardApplication {
+public class ShoppingCartApplication {
 
     @Resource
     private SpringSwaggerConfig springSwaggerConfig;
 
     public static void main(String[] args) {
-        SpringApplication.run(ShoppingCardApplication.class, args);
+        SpringApplication.run(ShoppingCartApplication.class, args);
     }
 
     @Bean
@@ -56,15 +56,15 @@ public class ShoppingCardApplication {
     SwaggerSpringMvcPlugin customImplementation() {
         return new SwaggerSpringMvcPlugin(this.springSwaggerConfig)
                 .apiInfo(apiInfo())
-                .swaggerGroup("card")
+                .swaggerGroup("cart")
                 .excludeAnnotations(Controller.class)
-                .includePatterns("/cards/.*");
+                .includePatterns("/carts/.*");
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
                 "Simple shopping cart API",
-                "Offers simple crud functionalities",
+                "Offers simple CRUD functionalities",
                 "",
                 "",
                 "",

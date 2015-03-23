@@ -20,7 +20,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<start-class>demo.ShoppingCardApplication</start-class>
+		<start-class>demo.ShoppingCartApplication</start-class>
 		<java.version>1.8</java.version>
 	</properties>
 

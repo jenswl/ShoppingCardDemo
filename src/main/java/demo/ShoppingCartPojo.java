@@ -9,9 +9,9 @@ import java.util.List;
  * Created by jensw on 23.03.2015.
  */
 @Document
-public class ShoppingCardPojo {
+public class ShoppingCartPojo {
     @Id
     public String id;
     public String name;
-    public List<ShoppingCardItem> items;
+    public List<ShoppingCartItem> items;
 }
