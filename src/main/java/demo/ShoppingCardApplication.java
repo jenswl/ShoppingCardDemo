@@ -63,7 +63,7 @@ public class ShoppingCardApplication {
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "Simple shopping card API",
+                "Simple shopping cart API",
                 "Offers simple crud functionalities",
                 "",
                 "",
